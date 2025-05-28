@@ -119,7 +119,8 @@ export default function WhichDavina() {
         setResultKey(match)
     }
 
-    const result = resultKey ? variantData[resultKey] : null
+    const result = resultKey ? variantData[resultKey as keyof typeof variantData] : null
+
 
     return (
         <section className="mb-32">
