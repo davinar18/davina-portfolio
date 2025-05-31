@@ -106,7 +106,7 @@ export default function Home() {
               options={{ autoStart: true, delay: 40, cursor: '' }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Hi, I'm Davina :)")
+                  .typeString("Hi, I'm Davina Rajendran :)")
                   .callFunction(() => {
                     const target = document.querySelector("#typed-taglines")
                     if (target) target.classList.remove("invisible")
